@@ -46,7 +46,8 @@ padding: 15px;
 
  
  .navbar{
-     margin: 0%;
+     margin-bottom: 2px;
+     /* margin: 0%; */
      display: flex;
      align-items: center;
      background:rgb(252, 63, 6);
@@ -198,14 +199,17 @@ padding: 15px;
      
      margin-top: 250px;
      display: grid;
-     grid-template-columns: 1fr 1fr;
-     margin-left: 100px;
-     margin-right: 150px;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-left: 250px;
+     margin-right: 250px;
  }
 
- .middle-container .box1{
-     border: 1px solid rgb(233, 230, 230);
-     background-color: rgb(233, 230, 230);
+ .middle-container .box1 li, .box2 li, .box3 li{
+     list-style:circle;
+     font-size: 17px;
+     padding: 5px;
+     /* margin-top: 10px; */
+     
  }
 
   .footer {
@@ -213,18 +217,32 @@ padding: 15px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     background-color: rgb(43, 40, 40);
+    padding: 20px;
+  }
+
+  .footer_li:first-child, li:last-child{
+    /* margin-left: 150px ; */
+    /* margin-left: 150px ; */
+    
   }
 
   .footer li{
       color: white;
-      margin-left: 150px ;
       font-family: 'Karla';
+      margin-left: 150px ;
+      padding: 10px;
+
   }
 
   .footer li:first-child{
       /* padding: 5px; */
       font-size: large;
       font-family: poppins;
+  }
+
+  .footer ul i{
+      margin-left: 15px;
+      font-size: 25px;
   }
   
 
