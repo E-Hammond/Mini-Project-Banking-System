@@ -157,6 +157,24 @@ padding: 15px;
     background-color: #f1f1f1;
     color: black;
   }
+
+  .footer {
+display: grid;
+grid-template-columns: repeat(4,1fr);
+background-color: rgb(43, 40, 40);
+  }
+
+  .footer li{
+      color: white;
+      margin-left: 200px ;
+      font-family: 'Karla';
+  }
+
+  .footer li:first-child{
+      padding: 5px;
+      font-size: large;
+      font-family: poppins;
+  }
   
 
 
