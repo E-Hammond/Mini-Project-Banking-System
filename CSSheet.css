@@ -110,8 +110,10 @@ padding: 15px;
 
 
  .slideshow-container {
-    position: relative;
+    /* position: relative; */
     margin: 0;
+    padding: 0px;
+    
   }
 
   /* Caption text */
@@ -127,6 +129,12 @@ padding: 15px;
 
 .mySlides1, .mySlides2{
     display: none;
+
+}
+
+.mySlides1 img{
+    width: 100vw;
+    height: 600px;
 }
 
   
@@ -158,10 +166,41 @@ padding: 15px;
     color: black;
   }
 
+  .container{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      position: absolute;
+      top: 721px;
+
+  }
+
+  .container-box1{
+     position:relative;
+      border: 1px solid rgb(137, 153, 49);
+      background-color: rgb(137, 153, 49);
+  }
+
+  .container-box2{
+    position:relative;
+    border: 1px solid rgb(153, 49, 136);
+    background-color: rgb(153, 49, 136);
+  }
+
+  .container-box3{
+    position:relative;
+    border: 1px solid rgb(151, 56, 80);
+    background-color: rgb(151, 56, 80);
+  }
+
+  /* .container-colum1 p {
+      position: relative;
+  } */
+
   .footer {
-display: grid;
-grid-template-columns: repeat(4,1fr);
-background-color: rgb(43, 40, 40);
+      margin-top: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(43, 40, 40);
   }
 
   .footer li{
@@ -171,7 +210,7 @@ background-color: rgb(43, 40, 40);
   }
 
   .footer li:first-child{
-      padding: 5px;
+      /* padding: 5px; */
       font-size: large;
       font-family: poppins;
   }
