@@ -52,7 +52,8 @@ padding: 15px;
      align-items: center;
      background:gray;
      line-height: 70px; 
-     position: relative;
+     /* position: relative; */
+     position: sticky;
  }
 
  
@@ -232,11 +233,6 @@ padding: 15px;
     padding: 20px;
   }
 
-  .footer_li:first-child, li:last-child{
-    /* margin-left: 150px ; */
-    /* margin-left: 150px ; */
-    
-  }
 
   .footer li{
       color: white;
