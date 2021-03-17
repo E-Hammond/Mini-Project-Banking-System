@@ -196,7 +196,7 @@ grid-template-rows: 1fr 1fr;
 }
 
 .footer {
-    margin-top: 630px;
+    margin-top: 850px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   background-color: rgb(43, 40, 40);
