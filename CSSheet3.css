@@ -110,3 +110,30 @@ padding: 15px;
     background-color: rgb(50, 48, 56);
    
 }
+
+.container{
+    margin-left: 600px;
+    margin-right: 500px;
+    padding:  80px;
+    border: 1px solid;
+    border-radius: 50px 50px 0 0;
+    margin-top: 170px;
+    background-color: rgb(81, 81, 238);
+    color: whitesmoke;
+}
+
+#search {
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: ;
+}
+
+#button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    position: absolute;
+    width: 170px;
+    margin-left: 5px;
+}
